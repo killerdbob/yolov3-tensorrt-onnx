@@ -1,0 +1,4 @@
+How to use!
+First, you should provide a pretrained onnx or trt file, put it in the current directory.
+Second, you should create an instance of yolov3, and just run the function of "readVideo(SyncQueue<output> *queuebuffer, string filename)", 
+queuebuffer is an 'SyncQueue' instance in 'queue.cpp', 'filename' could be a mp4 or rtsp stream. 
